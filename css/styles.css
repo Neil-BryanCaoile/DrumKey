@@ -1,0 +1,107 @@
+html {
+  font-size: 52.6%;
+}
+
+body {
+  background-color: #ffab97;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0cm;
+}
+
+header {
+  margin-bottom: 7rem;
+}
+
+.svg-container {
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  font-family: rooster;
+  font-size: 10rem;
+  color: #fffdd2;
+  text-align: center;
+  width: 50rem;
+  background-color: #c92a2a;
+  padding: 2% 2%;
+  border-radius: 170rem;
+  margin: auto;
+  box-shadow: 5px 10px #212529;
+}
+
+.drumkit-img {
+  background-image: url("../images/drumkit.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+}
+
+@font-face {
+  src: url(./font/rooster.ttf);
+  font-family: rooster;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto 2%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.key-text:hover {
+  cursor: pointer;
+}
+
+.section-margin {
+  margin: 3rem auto;
+}
+.btn-drum {
+  font-family: "Shippori Antique B1", sans-serif;
+  color: #fffdd2;
+  text-align: center;
+  background-color: transparent;
+  border: 0;
+  position: relative;
+}
+.button-png {
+  background-image: url("../images/button.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.key-text {
+  font-size: 4rem;
+  display: block;
+  width: 9rem;
+  height: 9rem;
+}
+
+.btn-container {
+  margin: 2rem 2rem;
+}
+
+.hand-png {
+  background-image: url("../images/button.png");
+}
+
+#drumkit {
+  width: 60%;
+}
+
+.image-container {
+  width: 100%;
+}
