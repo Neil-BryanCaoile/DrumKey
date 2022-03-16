@@ -111,9 +111,24 @@
 }
 
 #note1 {
-  transform-origin: 734px 309px;
+  transform-origin: 712px 184px;
   animation-name: animationNote1;
-  animation-duration: 4s;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#notes2 {
+  transform-origin: 712px 184px;
+  animation-name: animationNote1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#notes3 {
+  transform-origin: 712px 184px;
+  animation-name: animationStars1;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
@@ -123,11 +138,57 @@
     transform: translate(0, 0) rotate(0deg);
   }
 
+  100% {
+    transform: translate(1rem, 5rem) rotate(-50deg);
+  }
+}
+
+#stars1 {
+  transform-origin: 712px 184px;
+  animation-name: animationStars1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes animationStars1 {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+
   50% {
-    transform: translate(1rem, 10rem) rotate(50deg);
+    transform: translate(1rem, 10rem);
   }
 
   100% {
     transform: translate(0, 0) rotate(0deg);
   }
+}
+#stars2 {
+  transform-origin: 144px 331px;
+  animation-name: animationNote1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#circles1 {
+  transform-origin: 144px 331px;
+  animation-name: animationStars1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#circles2 {
+  transform-origin: 144px 331px;
+  animation-name: animationStars1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#circles3 {
+  transform-origin: 144px 331px;
+  animation-name: animationStars1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }

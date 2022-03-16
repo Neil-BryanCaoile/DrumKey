@@ -93,3 +93,7 @@ function animationSymbals1() {
     symbal.classList.add("animation-symbals1");
   }
 }
+
+function animationStars1() {
+  const stars1 = document.querySelectorAll("#notes path")[0];
+}

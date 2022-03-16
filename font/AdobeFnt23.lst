@@ -1,0 +1,28 @@
+%!Adobe-FontList 1.23
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ROOSTERPERSONALUSE
+FamilyName:ROOSTER PERSONAL USE
+StyleName:Regular
+FullName:ROOSTER PERSONAL USE
+MenuName:ROOSTER PERSONAL USE
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\neilb\Documents\webdev-projects\DrumKey\Font\rooster.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:176540
+FileModTime:1647465207
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,ROOSTER PERSONAL USE
+NameArray:0,Mac,4,ROOSTER PERSONAL USE
+NameArray:0,Win,1,ROOSTER PERSONAL USE
+NameArray:0,Win,16,ROOSTER PERSONAL USE
+%EndFont
+
