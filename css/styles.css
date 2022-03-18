@@ -9,11 +9,19 @@ body {
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0cm;
+  padding: 0;
 }
 
 header {
   margin-bottom: 7rem;
+}
+
+.bg {
+  background-image: url("../bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .svg-container {
@@ -77,7 +85,7 @@ header {
 }
 .button-png {
   background-image: url("../images/button.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
@@ -86,12 +94,11 @@ header {
 .key-text {
   font-size: 4rem;
   display: block;
-  width: 9rem;
-  height: 9rem;
+  width: 9.5rem;
+  height: 10rem;
 }
 
 .btn-container {
-  margin: 2rem 2rem;
 }
 
 .hand-png {
